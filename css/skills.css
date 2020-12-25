@@ -1,0 +1,57 @@
+#skills {
+    color:  rgb(0, 43, 99);
+    background-color:#DEDEDE52;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 40px;
+    padding: 30px;
+  }
+  #skills p {
+    padding-right: -30px;
+  }
+
+  .skills-bar {
+    margin-top: 25px;
+    height: 4px;
+    width: 220px; 
+    background-color: #ddd; 
+  }
+
+  .bar {
+    height: 4px; 
+    background-color: rgb(0, 43, 99);
+  }
+  
+  .html { 
+    width: 90%; 
+  }
+
+  .js { 
+    width: 85%; 
+  }
+
+  .java { 
+    width: 90%; 
+  }
+
+  .sql { 
+    width: 85%; 
+  }
+
+  .python { 
+    width: 70%; 
+  }
+
+  .cpp { 
+    width: 70%; 
+  }
+
+  .mern { 
+    width: 80%; 
+  }
+
+  .wp { 
+    width: 80%; 
+  }
+
+  
