@@ -1,115 +1,119 @@
-  body {
-    color:  rgb(0, 43, 99);
-    font-family: 'Avenir Light';
-  }
-  body h3 {
-    font-size: 30px;
-    font-family: 'Avenir Light';
-  }
-  body p,h4 {
-    font-size: 19px;
-    font-family: 'Avenir Light';
-  }
-  #home {
-    size: 30px;
-    background-color:  rgb(0, 43, 99);
-    color: #ffffff;
-  }
-  #text-box-right {
-    margin: 20% 20% 5% 15%;
-  }
-  #text-box-right h1 {
-    font-family: 'Avenir Light';
-    font-size: 50px; 
-    line-height: 2.2ex;     
-  }
-  #text-box-right p,h6 {
-    line-height: 1ex;   
-    font-family: 'Avenir Light';
-    font-size: 18px; 
-  }
-  #about {
-    font-size: 18px;
-    background-color: #DEDEDE52; 
-    text-align: justify;
-    margin: 35px;
-    padding: 30px;
-  }
-  #education-heading,#project-heading, #experiance-heading{
-    text-align: center;
-    font-family: 'Avenir Light';
-  }
-  #project-cards {
-    margin: 20px 0px 20px 90px;
-  }
-  #learn-more-button {
-    color: rgb(255, 255, 255);
-    background-color:  rgb(0, 43, 99);
-    border-radius: 100px;
-  }
-  #card {
-    margin:auto; 
-    position: relative;
-    width:33%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 350px;
-    height: 300px;
-  }
-  #contact {
-    background-color: #DEDEDE52; 
-    text-align: justify;
-    margin-top: 60px;
-  }
+body {
+  color: rgb(0, 43, 99);
+  font-family: "Avenir Light";
+}
+body h3 {
+  font-size: 30px;
+  font-family: "Avenir Light";
+}
+body p,
+h4 {
+  font-size: 19px;
+  font-family: "Avenir Light";
+}
+#home {
+  size: 30px;
+  background-color: rgb(0, 43, 99);
+  color: #ffffff;
+}
+#text-box-right {
+  margin: 20% 20% 5% 15%;
+}
+#text-box-right h1 {
+  font-family: "Avenir Light";
+  font-size: 50px;
+  line-height: 2.2ex;
+}
+#text-box-right p,
+h6 {
+  line-height: 1ex;
+  font-family: "Avenir Light";
+  font-size: 18px;
+}
+#about {
+  font-size: 18px;
+  background-color: #dedede52;
+  text-align: justify;
+  margin: 35px;
+  padding: 30px;
+}
+#education-heading,
+#project-heading,
+#experience-heading {
+  text-align: center;
+  font-family: "Avenir Light";
+}
+#project-cards {
+  margin: 20px 0px 20px 90px;
+}
+#learn-more-button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 43, 99);
+  border-radius: 100px;
+}
+#card {
+  margin: auto;
+  position: relative;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 350px;
+  height: 300px;
+}
+#contact {
+  background-color: #dedede52;
+  text-align: justify;
+  margin-top: 60px;
+}
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #ffffffef;
-  }
-  #card:hover .overlay {
-    opacity: 1;
-  }
-  .text {
-    color: rgb(0, 43, 99);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  #contact-form {
-    margin: 30px 150px 100px 150px;
-  }
-  form div{
-    margin: 20px;
-  }
-  #contact-form-message input{
-    height: 150px;    
-  }
-  #contact-form-button  {
-    background-color:rgb(0, 43, 99);
-    color: #ffffff; 
-    margin: auto;
-    border-radius: 100px;
-    width:20%;
-  }
-  #contact-form-button:hover {
-    opacity: 0.8;
-  }
-  footer p {
-    margin: 20px;
-    margin-left: 60px;
-    font-size: 12px;
-    opacity: 0.98;
-    color: black;
-  }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffffffef;
+}
+#card:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: rgb(0, 43, 99);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#contact-form {
+  margin: 30px 150px 100px 150px;
+}
+form div {
+  margin: 20px;
+}
+#contact-form-message input {
+  height: 150px;
+}
+#contact-form-button {
+  background-color: rgb(0, 43, 99);
+  color: #ffffff;
+  margin: auto;
+  border-radius: 100px;
+  width: 20%;
+}
+#contact-form-button:hover {
+  opacity: 0.8;
+}
+footer p {
+  margin: 20px;
+  margin-left: 60px;
+  font-size: 12px;
+  opacity: 0.98;
+  color: black;
+}
